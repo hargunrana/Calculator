@@ -1,0 +1,70 @@
+body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+.calc {
+    border: 1px solid white;
+}
+.content {
+    height: 10rem;
+    width: 30rem;
+
+    background-color: black;
+    color: white;
+    font-size: 5rem;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.text {
+    padding-right: 2rem;
+}
+
+.newKeys {
+    height: 40rem;
+    width: 30rem;
+    background-color: black;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.button {
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+    margin: 1rem;
+    font-size: 2rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0;
+    cursor: pointer;
+}
+
+.numbers {
+    background-color: rgb(75, 71, 71);
+    color: white;
+}
+.operators {
+    background-color: orange;
+    color: white;
+}
+.equal {
+    background-color: orange;
+    color: white;
+}
+
+.top {
+    background-color: rgb(200, 193, 193);
+    color: black;
+}
+
+.zero {
+    width: 12rem;
+    border-radius: 5rem;
+}
